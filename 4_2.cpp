@@ -1,5 +1,5 @@
 #include <iostream.h>
-int main() 
+void main() 
 {
     int year,sum = 0;
     for(year = 2000; year <= 3000; ++year) {
@@ -10,5 +10,5 @@ int main()
         }
     }
     if(sum % 10) cout << endl;
-	cout<<"ÈòÄêÊı"<<sum<<endl;  
+	cout<<"ÃˆÃ²Ã„ÃªÃŠÃ½"<<sum<<endl;  
 }
